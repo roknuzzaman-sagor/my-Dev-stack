@@ -3,14 +3,14 @@ import Logo from "../assets/logo-text.png";
 
 const Nav = () => {
   return (
-    <nav className="border-amber-50 bg-white shadow-sm">
+    <nav className="sticky top-0 z-50 border-amber-50 bg-white shadow-sm">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         
         <button className="text-2xl md:hidden cursor-pointer"> <FaBars/></button>
 
 
         <div>
-          <img src={Logo} alt="" className="h-10 w-auto" />
+          <img src={Logo} alt="Dev stack Logo" className="h-10 w-auto" />
         </div>
 
         <ul className="hidden items-center gap-8 md:flex">
