@@ -1,4 +1,5 @@
 
+import Nav from './Components/Nav';
 
 
 function App() {
@@ -7,8 +8,9 @@ function App() {
   return (
     <>
      
+      <Nav></Nav>
       
-   <h1>Hello vite</h1>
+   
      
     
     </>
