@@ -55,10 +55,12 @@ function App() {
     return technology;
   };
 
-  const removeAll = () => {
+  const removeAll = (): Technology[] => {
     setStack([]);
 
     toast.error("All technologies removed!");
+
+    return [];
   };
 
   return (
