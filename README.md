@@ -25,25 +25,30 @@
 
 
 
-1. What is JSX, and why is it used in React?
+   1. What is JSX, and why is it used in React?
+
   Ans: JSX is a syntax that lets us write HTML-like code inside JavaScript. React uses JSX to make it easier to create and understand the UI.
 
 
-2. What is the difference between props and state?
+   2. What is the difference between props and state?
+
   Ans: Props: are data passed from a parent component to a child component.
   State: is data managed inside a component that can change over time.
 
 
 
-3. What does the useState hook do, and where did you use it in this project?
+  3. What does the useState hook do, and where did you use it in this project?
+
 Ans: useState creates and manages changing data inside a React component. In this project, I used it to store the selected    technologies in the stack and also to store the loaded  technology data.
 
 
 4. What does the useEffect hook do, and why did you need it to load the JSON data?
+
   Ans: useEffect runs code after a component renders. I used it to fetch the JSON data when the Technologies component loads.
 
 
 5. Why does every item in a .map() list need a unique key prop?
+
   Ans: The key helps React identify each item in a list. It allows React to understand which item was added, removed, or changed.
 
 Example:
@@ -57,6 +62,7 @@ Example:
 
 
 6. What is conditional rendering? Show one place you used it.
+
   Ans: Conditional rendering means showing different UI depending on a condition.
 
 I used it to show an empty message when there are no technologies in the stack:
@@ -69,6 +75,7 @@ I used it to show an empty message when there are no technologies in the stack:
 
 
 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
+
  Ans: A parent sends data to a child using props.
 
 For example:
