@@ -4,9 +4,9 @@
 .brand-gradient {
   background: linear-gradient(
     90deg,
-    #f97316,
-    #d91b7e,
-    #7c3aed
+    #27221f,
+    #272225,
+    #211e27
   );
 
   background-clip: text;
@@ -17,8 +17,8 @@
 .primary-gradient {
   background: linear-gradient(
     90deg,
-    #f97316,
-    #d91b7e,
-    #7c3aed
+    #1d1a18,
+    #251c21,
+    #19161f
   );
 }
