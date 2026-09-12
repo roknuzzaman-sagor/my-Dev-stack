@@ -9,7 +9,7 @@ import Nav from "./Components/Nav";
 import Banner from "./Components/Banner";
 import Technologies from "./Components/Technologies/Technologies";
 import MyStack from "./Components/My Stack/MyStack";
-import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/Footer/Footer"; 
 
 function App() {
   const [stack, setStack] = useState<Technology[]>(() => {
