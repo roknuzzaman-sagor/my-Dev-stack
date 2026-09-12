@@ -7,7 +7,7 @@ const MyStack = ({
   onRemoveAll,
 }: {
   stack: Technology[];
-  onRemove: (id: string) => void;
+  onRemove: (id: string) =>Technology;
   onRemoveAll: () => void;
 }) => {
 

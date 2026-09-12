@@ -4,7 +4,7 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/logo-text.png";
 
 const Footer = () => {
   return (
