@@ -7,9 +7,9 @@ const Banner = () => {
         <h1 className="text-4xl font-bold leading-tight text-gray-900 md:text-5xl">
           Build Your Ideal
         </h1>
-        <h1 className=" bg-linear-to-r from-[#f97316] to-purple-600 bg-clip-text text-4xl font-bold leading-tight text-transparent md:text-5xl">
+        <h2 className=" bg-linear-to-r from-[#f97316] to-purple-600 bg-clip-text text-4xl font-bold leading-tight text-transparent md:text-5xl">
           Development Stack
-        </h1>
+        </h2>
         <p className="mt-4 max-w-xl text-lg leading-8 text-gray-600">
           Explore frontend,backend,database and tooling option,compare them side
           by side and pur together the stack that fits your next project.
