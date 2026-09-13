@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@plugin "daisyui";
+
 
 .brand-gradient {
   background: linear-gradient(
